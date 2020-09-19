@@ -37,7 +37,7 @@ while still_playing == True:
             win = True
             break
 if win == True:
-    print("Congrats! You won at " = str(6-tries) +" tries")
+    print("Congrats! You won at " + str(6-tries) +" tries")
 else:
     print("No More Tries")
     print("The Number was " + str(computerNum))
